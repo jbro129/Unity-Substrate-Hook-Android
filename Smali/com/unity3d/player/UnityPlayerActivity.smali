@@ -60,10 +60,14 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 2
 
+*******************************************************************************************************
+// Add this to the onCreate code
+
     const-string v0, "jbro"
 
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
-	
+    
+*******************************************************************************************************
     const/4 v0, 0x1
 
     invoke-virtual {p0, v0}, Lcom/unity3d/player/UnityPlayerActivity;->requestWindowFeature(I)Z
