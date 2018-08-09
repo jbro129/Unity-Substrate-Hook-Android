@@ -1,9 +1,9 @@
 #include <jni.h>
 //#include <android/log.h>
 #include <Substrate/CydiaSubstrate.h>
-#include "Unity/Quaternion.hpp" // C++ equivalent of Unity C# Quaternion.
-#include "Unity/Vector3.hpp" // C++ equivalent of Unity C# Vector3.
-#include "Unity/Vector2.hpp" // C++ equivalent of Unity C# Vector2.
+#include "Unity/Quaternion.hpp" // C++ equivalent of Unity C# Quaternion. <- Credits unknown
+#include "Unity/Vector3.hpp" // C++ equivalent of Unity C# Vector3. <- Credits unknown
+#include "Unity/Vector2.hpp" // C++ equivalent of Unity C# Vector2. <- Credits unknown
 #include "Unity/Unity.h" // C++ equivalent of Unity List/Dictionary/Array <- Credits to Shmoo for this (Small version of https://github.com/shmoo419/UnityStuff/blob/master/Unity.h)
 /*
 #define LOG_TAG  "JbroMain"
